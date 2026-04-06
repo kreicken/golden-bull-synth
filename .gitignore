@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local User Settings & Presets
+settings.json
+*.json
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
