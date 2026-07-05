@@ -38,8 +38,8 @@ sudo apt-get install python3-pip python3-venv libportaudio2 libasound-dev
 
 ### 2. Environment Setup
 ```bash
-git clone https://github.com/YOUR_GITHUB_NAME/asherah-suite.git
-cd asherah-suite
+git clone https://github.com/kreicken/golden-bull-synth.git
+cd golden-bull-synth
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
