@@ -29,14 +29,24 @@ The suite operates in a **Master/Engine** configuration:
 
 ## 🛠️ Installation (Linux)
 
-### 1. System Dependencies
-Ensure you have the underlying audio libraries installed (Debian/Ubuntu):
+You can install all dependencies and set up a Desktop Launcher automatically using the installer script, or install manually.
+
+### Option A: Automated Installation (Recommended)
+This will install system audio packages, set up a python virtual environment, install requirements, and create a Desktop launcher:
+```bash
+git clone https://github.com/kreicken/golden-bull-synth.git
+cd golden-bull-synth
+chmod +x install.sh
+./install.sh
+```
+
+### Option B: Manual Installation
+1. Install system dependencies:
 ```bash
 sudo apt-get update
 sudo apt-get install python3-pip python3-venv libportaudio2 libasound-dev
 ```
-
-### 2. Environment Setup
+2. Clone, setup virtual environment, and install dependencies:
 ```bash
 git clone https://github.com/kreicken/golden-bull-synth.git
 cd golden-bull-synth
