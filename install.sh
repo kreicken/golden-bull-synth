@@ -10,7 +10,7 @@ echo "=== Installing Golden Bull Synth ==="
 # Install system packages (requires sudo)
 echo "Installing system packages..."
 sudo apt-get update
-sudo apt-get install -y python3-pip python3-venv libportaudio2 libasound-dev
+sudo apt-get install -y python3-pip python3-venv libportaudio2 libasound-dev pkg-config libjack-jackd2-dev python3-tk
 
 # Create virtual environment
 echo "Setting up Python virtual environment..."
